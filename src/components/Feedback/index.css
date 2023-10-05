@@ -1,0 +1,57 @@
+/* Write your CSS code here. */
+* {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+.bg-container {
+  background: #ffc0bb;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feedback-card {
+  background: #fff;
+  padding: 60px;
+  border-radius: 10px;
+}
+.feedback-card h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.emojis-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 30px;
+  margin-top: 20px;
+}
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 180px;
+  height: 180px;
+  background: transparent;
+}
+.emoji {
+  width: 100%;
+  cursor: pointer;
+}
+.emoji-name {
+  font-size: 20px;
+}
+.thankYou-container {
+  text-align: center;
+}
+.love-emoji {
+  width: 130px;
+  height: 100px;
+}
+.thankYou-heading {
+  font-size: 30px;
+}
+.thankYou-description {
+  font-size: 26px;
+}
